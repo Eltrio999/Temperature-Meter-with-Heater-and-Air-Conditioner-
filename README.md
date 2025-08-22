@@ -1,42 +1,43 @@
-Temperature Meter with Heater and Air Conditioner
-Overview
+🌡️ Temperature Meter with Heater and Air Conditioner
 
-This project is an embedded real-time temperature control system built with an ATmega32 microcontroller. It monitors ambient temperature using an LM35 sensor and automatically activates a cooling fan or a warming fan to maintain stable conditions. The current temperature is displayed on an LCD, with LEDs indicating system status.
+An embedded real-time temperature control system using an ATmega32 microcontroller and an LM35 temperature sensor.
+The system monitors ambient temperature and automatically activates a cooling fan or a warming fan.
+A real-time reading is displayed on an LCD, with LED indicators showing the current state.
 
-Features
+✨ Features
 
-Real-time temperature monitoring via LCD
+✅ Real-time temperature monitoring on LCD
+✅ Automatic cooling/heating control
+✅ LED indicators for fan/heater status
+✅ Low-cost and energy-efficient design
+✅ Tested in Proteus simulation and hardware implementation
 
-Automatic cooling and heating control
+🛠️ Hardware Components
 
-LED indicators for fan/heater status
+🔹 ATmega32 Microcontroller – System controller
 
-Cost-effective and energy-efficient design
+🔹 LM35 Temperature Sensor – Temperature measurement
 
-Tested in simulation (Proteus) and implemented in hardware
+🔹 LCD Display (16x2) – Real-time data display
 
-Hardware Components
+🔹 Cooling Fan & Warming Fan – Environmental control
 
-ATmega32 Microcontroller – Core processing unit
+🔹 BC547 Transistors – Fan switching
 
-LM35 Temperature Sensor – Reads ambient temperature
+🔹 Capacitors & Resistors – Circuit stability
 
-LCD Display – Shows real-time temperature
+🔹 LEDs (Green & Red) – Status indicators
 
-Cooling Fan & Warming Fan – Controlled by the microcontroller
+⚙️ How It Works
 
-Transistors, Capacitors, Resistors – For stable circuit operation
+🌡️ The LM35 sensor measures ambient temperature.
 
-LEDs – Indicate cooling/heating status
+🔄 The ATmega32 ADC converts analog data into digital values.
 
-Circuit Workflow
+🌀 If the temperature is above the threshold → Cooling Fan ON.
 
-The LM35 sensor measures ambient temperature.
+🔥 If the temperature is below the threshold → Warming Fan ON.
 
-The ATmega32 converts the sensor’s analog signal via its ADC.
+📟 LCD displays real-time readings.
 
-Based on thresholds, the microcontroller activates the cooling fan or warming fan.
-
-The LCD displays the current temperature.
-
-LEDs show which system (cooling/heating) is active.
+💡 LEDs indicate whether heating or cooling is active.
