@@ -36,7 +36,3 @@ A real-time reading is displayed on an **LCD**, with **LED indicators** showing 
 
 ---
 
-
-
-## 📸 Preview  
-> Add your **circuit diagram, Proteus simulation screenshot, or hardware photo** here for better visualization.
